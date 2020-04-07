@@ -87,3 +87,24 @@ body{
     opacity:0.5;
     cursor: pointer;
 }
+
+@media screen and (max-width:800px){
+    .my-container,.my-third{
+        width: 100%;
+        vertical-align:middle;
+    }
+    .my-button{
+    display: inline-block;
+    padding: 4px 8px;
+    vertical-align: middle;
+    text-align: center;
+    cursor:pointer;
+    border: none;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-decoration: none;
+}
+    .arabic{
+        font-size: 16px;
+    }
+}
