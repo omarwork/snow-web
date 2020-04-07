@@ -1,0 +1,89 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+.arabic{
+    direction: rtl;
+    font-family: adobe naskh medium;
+    font-size:20px;
+    
+}
+h1{
+    padding-right: 16px;
+    font-size: 40px !important;
+}
+
+.my-light-gray{
+    background-color: #F0F0F0;
+}
+.my-container{
+    padding: 1em 10px;
+    color: #1c2f81;
+    
+}
+.my-section{
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;}
+
+.right-first{
+        position:relative; 
+   
+    
+        
+
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+#card{
+    margin: 0px;
+}
+.tyara{
+    position: relative;
+    bottom: 195px;
+    
+    /*width:95.5%;*/
+    background-color: rgb(256,256,256,0.5);
+    
+}
+.my-neg-rel-margin{
+    margin-top:-220px;
+}
+.my-padding-16{
+    padding: 16px;
+}
+.my-BottomBar{
+    border-bottom: 6px #ccc solid;
+}
+.my-button{
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-align: center;
+    cursor:pointer;
+    border: none;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-decoration: none;
+}
+.my-button:hover{color:#000!important;
+    background-color:#ccc!important}
+.my-padding-8{
+    padding:0 8px;
+}
+.my-third{
+     
+    float: left;
+    width: 33.3% !important ;
+    
+       
+    
+}
+
+.my-card{
+   
+    background-color: white;
+    
+}
+.my-hover:hover{
+    opacity:0.5;
+    cursor: pointer;
+}
