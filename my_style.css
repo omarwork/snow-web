@@ -99,7 +99,7 @@ body{
     }
     h1{
     padding-right: 8px;
-    font-size: 10px !important;
+    font-size: 15px !important;
 }
     .sec{
         margin-right: 8px;
@@ -120,7 +120,7 @@ body{
     }
     .tyara{
         position: relative;
-    bottom: 70px;
+    bottom: 88px;
     
     /*width:95.5%;*/
    
@@ -137,6 +137,6 @@ body{
     text-decoration: none;
 }
     .arabic{
-        font-size: 5px;
+        font-size: 8px;
     }
 }
