@@ -84,6 +84,9 @@ body{
     background-color: white;
     
 }
+.sec{
+    margin-right: 16px;
+}
 .my-hover:hover{
     opacity:0.5;
     cursor: pointer;
@@ -96,8 +99,11 @@ body{
     }
     h1{
     padding-right: 8px;
-    font-size: 20px !important;
+    font-size: 10px !important;
 }
+    .sec{
+        margin-right: 8px;
+    }
     
     
     .my-neg-rel-margin{
@@ -105,16 +111,16 @@ body{
 }
     #plants{
        
-    margin-top:-140px;
+    margin-top:-100px;
 
     }
     .my-padding-16{
-        padding: 8px;
+        padding: 4px;
         
     }
     .tyara{
         position: relative;
-    bottom: 120px;
+    bottom: 70px;
     
     /*width:95.5%;*/
    
@@ -131,6 +137,6 @@ body{
     text-decoration: none;
 }
     .arabic{
-        font-size: 16px;
+        font-size: 5px;
     }
 }
