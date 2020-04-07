@@ -69,10 +69,11 @@ body{
 .my-padding-8{
     padding:0 8px;
 }
+
 .my-third{
      
     float: left;
-    width: 33.3% !important ;
+    width: 33.3% !important;
     
        
     
@@ -89,9 +90,34 @@ body{
 }
 
 @media screen and (max-width:800px){
-    .my-container,.my-third{
-        width: 100%;
-        vertical-align:middle;
+    .my-third{
+        width: 100% !important;
+        float: left;
+    }
+    h1{
+    padding-right: 8px;
+    font-size: 20px !important;
+}
+    
+    
+    .my-neg-rel-margin{
+    margin-top:0px;
+}
+    #plants{
+       
+    margin-top:-140px;
+
+    }
+    .my-padding-16{
+        padding: 8px;
+        
+    }
+    .tyara{
+        position: relative;
+    bottom: 120px;
+    
+    /*width:95.5%;*/
+   
     }
     .my-button{
     display: inline-block;
