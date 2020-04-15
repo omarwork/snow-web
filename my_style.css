@@ -5,53 +5,48 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     font-size:20px;
     
 }
+body{
+    
+    padding: 0px;
+    margin: 0;
+}
 h1{
     padding-right: 16px;
     font-size: 40px !important;
 }
 
 .my-light-gray{
-    background-color: #F0F0F0;
-}
-.my-container{
-    padding: 1em 10px;
-    color: #1c2f81;
-    
-}
-.my-section{
-    margin-top: 16px !important;
-    margin-bottom: 16px !important;}
-
-.right-first{
-        position:relative; 
+    background-color:#d6d6d6;
    
-    
-        
+}
+.my-fir-container{
+    color: #1c2f81;
+   
+    margin:0 16px;
+    position: relative;
+    box-sizing: border-box;
+}
 
-}
-body{
-    margin:0px;
-    padding: 0px;
-}
+
+
 #card{
     margin: 0px;
 }
 .tyara{
-    position: relative;
-    bottom: 195px;
-    
+   
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
     /*width:95.5%;*/
     background-color: rgb(256,256,256,0.5);
     
 }
-.my-neg-rel-margin{
-    margin-top:-220px;
-}
+
 .my-padding-16{
     padding: 16px;
 }
 .my-BottomBar{
-    border-bottom: 6px #ccc solid;
+    border-bottom: 10px #ccc solid;
 }
 .my-button{
     display: inline-block;
@@ -67,16 +62,21 @@ body{
 .my-button:hover{color:#000!important;
     background-color:#ccc!important}
 .my-padding-8{
-    padding:0 8px;
+    padding-right:  8px;
+    
 }
 
 .my-third{
      
     float: left;
     width: 33.3% !important;
+    box-sizing: border-box;
+   
+    padding-bottom: 16px;  
     
-       
-    
+}
+.new,.new>.my-third{
+    padding: 8px 8px;
 }
 
 .my-card{
